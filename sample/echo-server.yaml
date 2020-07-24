@@ -9,8 +9,8 @@ spec:
   template:
     metadata:
       annotations:
-        sidecar-injector.expedia.com/inject: "haystack-agent"
-        sidecar-injector.expedia.com/some-api-key: "6feab492-fc9b-4c38-b50d-3791718c8203"
+        sidecar-injector.hipspec.com/inject: "haystack-agent"
+        sidecar-injector.hipspec.com/some-api-key: "6feab492-fc9b-4c38-b50d-3791718c8203"
       labels:
         app: echo-server
     spec:

@@ -107,7 +107,7 @@ kubectl apply -f sample/namespace-label.yaml
 
 ### Test the webhook
 
-One can run the following command to deploy a sample `echo-server`. Note, this [deployment spec carries an annotation](sample/echo-server.yaml#L12) `sidecar-injector.expedia.com/inject: "haystack-agent"` that triggers injection of `haystack-agent` sidecar defined in [sidecar-configmap.yaml](deployment/kubectl/sidecar-configmap.yaml) file.
+One can run the following command to deploy a sample `echo-server`. Note, this [deployment spec carries an annotation](sample/echo-server.yaml#L12) `sidecar-injector.hipspec.com/inject: "haystack-agent"` that triggers injection of `haystack-agent` sidecar defined in [sidecar-configmap.yaml](deployment/kubectl/sidecar-configmap.yaml) file.
 
 ```bash
 kubectl apply -f sample/echo-server.yaml

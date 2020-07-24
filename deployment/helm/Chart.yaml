@@ -1,5 +1,5 @@
-name: kubernetes-sidecar-injector
-home: https://github.com/expediadotcom/kubernetes-sidecar-injector
+name: hipspec-kubernetes-sidecar-injector
+home: https://github.com/hipspec/kubernetes-sidecar-injector
 version: 0.1
 appVersion: 0.1
 keywords:
@@ -8,7 +8,7 @@ keywords:
 description:
 apiVersion:
 sources:
-- https://github.com/expediadotcom/kubernetes-sidecar-injector
+- https://github.com/hipspec/kubernetes-sidecar-injector
 maintainers:
-- name: Ayan Sen
-  email: aysen@expedia.com
+- name: Mason Hensley
+  email: mason@hipspec.com

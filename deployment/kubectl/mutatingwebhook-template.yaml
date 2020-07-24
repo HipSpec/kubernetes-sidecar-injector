@@ -5,7 +5,7 @@ metadata:
   labels:
     app: kubernetes-sidecar-injector
 webhooks:
-  - name: kubernetes-sidecar-injector.expedia.com
+  - name: kubernetes-sidecar-injector.hipspec.com
     clientConfig:
       service:
         name: kubernetes-sidecar-injector-svc
